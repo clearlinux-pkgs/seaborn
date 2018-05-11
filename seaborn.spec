@@ -4,7 +4,7 @@
 #
 Name     : seaborn
 Version  : 0.8.1
-Release  : 5
+Release  : 6
 URL      : https://pypi.python.org/packages/10/01/dd1c7838cde3b69b247aaeb61016e238cafd8188a276e366d36aa6bcdab4/seaborn-0.8.1.tar.gz
 Source0  : https://pypi.python.org/packages/10/01/dd1c7838cde3b69b247aaeb61016e238cafd8188a276e366d36aa6bcdab4/seaborn-0.8.1.tar.gz
 Summary  : Seaborn: statistical data visualization
@@ -55,7 +55,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1523566791
+export SOURCE_DATE_EPOCH=1526075459
 python3 setup.py build -b py3
 
 %install
