@@ -9,7 +9,7 @@ URL      : https://pypi.python.org/packages/10/01/dd1c7838cde3b69b247aaeb61016e2
 Source0  : https://pypi.python.org/packages/10/01/dd1c7838cde3b69b247aaeb61016e238cafd8188a276e366d36aa6bcdab4/seaborn-0.8.1.tar.gz
 Summary  : Seaborn: statistical data visualization
 Group    : Development/Tools
-License  : BSD(3-clause) BSD-3-Clause MIT
+License  : BSD-3-Clause MIT
 Requires: seaborn-python3
 Requires: seaborn-python
 BuildRequires : pbr
