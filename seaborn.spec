@@ -4,7 +4,7 @@
 #
 Name     : seaborn
 Version  : 0.10.0
-Release  : 21
+Release  : 22
 URL      : https://files.pythonhosted.org/packages/af/b8/0c299903a2f6b8170eccf522ec44c3d7bbe4f10427cd90cf9bebf52c9919/seaborn-0.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/af/b8/0c299903a2f6b8170eccf522ec44c3d7bbe4f10427cd90cf9bebf52c9919/seaborn-0.10.0.tar.gz
 Summary  : seaborn: statistical data visualization
@@ -24,9 +24,20 @@ BuildRequires : pandas
 BuildRequires : scipy
 
 %description
-seaborn: statistical data visualization
-=======================================
-<div class="row">
+Seaborn is a library for making statistical graphics in Python. It is built on top of `matplotlib <https://matplotlib.org/>`_ and closely integrated with `pandas <https://pandas.pydata.org/>`_ data structures.
+
+Here is some of the functionality that seaborn offers:
+
+- A dataset-oriented API for examining relationships between multiple variables
+- Specialized support for using categorical variables to show observations or aggregate statistics
+- Options for visualizing univariate or bivariate distributions and for comparing them between subsets of data
+- Automatic estimation and plotting of linear regression models for different kinds dependent variables
+- Convenient views onto the overall structure of complex datasets
+- High-level abstractions for structuring multi-plot grids that let you easily build complex visualizations
+- Concise control over matplotlib figure styling with several built-in themes
+- Tools for choosing color palettes that faithfully reveal patterns in your data
+
+Seaborn aims to make visualization a central part of exploring and understanding data. Its dataset-oriented plotting functions operate on dataframes and arrays containing whole datasets and internally perform the necessary semantic mapping and statistical aggregation to produce informative plots.
 
 %package license
 Summary: license components for the seaborn package.
@@ -49,6 +60,7 @@ python components for the seaborn package.
 Summary: python3 components for the seaborn package.
 Group: Default
 Requires: python3-core
+Provides: pypi(seaborn)
 
 %description python3
 python3 components for the seaborn package.
@@ -63,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579897163
+export SOURCE_DATE_EPOCH=1582924088
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
