@@ -1,5 +1,5 @@
 PKG_NAME := seaborn
-URL = https://files.pythonhosted.org/packages/af/b8/0c299903a2f6b8170eccf522ec44c3d7bbe4f10427cd90cf9bebf52c9919/seaborn-0.10.0.tar.gz
+URL = https://files.pythonhosted.org/packages/df/0e/817bea5f24e32cb014bf984f443bac54ab6c90ffc1ba0ca442065a7266b8/seaborn-0.10.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
