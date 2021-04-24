@@ -4,7 +4,7 @@
 #
 Name     : seaborn
 Version  : 0.11.1
-Release  : 31
+Release  : 32
 URL      : https://files.pythonhosted.org/packages/ef/f4/1927dc0e07f34d54617ce7d31e83b0e3345f14e893b138e44eddd5fad806/seaborn-0.11.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ef/f4/1927dc0e07f34d54617ce7d31e83b0e3345f14e893b138e44eddd5fad806/seaborn-0.11.1.tar.gz
 Summary  : seaborn: statistical data visualization
